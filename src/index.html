@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HumanosAngular</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+</head>
+<body>
+  <app-root></app-root>
+
+    	<!-- jQuery -->    
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/libs/popper/popper.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/libs/jquery.countdown/jquery.countdown.min.js"></script>
+    <script src="assets/libs/wow/wow.min.js"></script>
+    <script src="assets/libs/isotope/isotope.pkgd.min.js"></script>
+    <script src="assets/libs/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/libs/magicsuggest/magicsuggest-min.js"></script>
+    <script src="assets/libs/quilljs/js/quill.core.js"></script>
+    <script src="assets/libs/quilljs/js/quill.js"></script>
+    <!-- orther script -->
+    <script src="assets/js/main.js"></script>
+    <script>
+    	function validate(evt) {
+		  var theEvent = evt || window.event;
+		  var key = theEvent.keyCode || theEvent.which;
+		  key = String.fromCharCode( key );
+		  var regex = /[0-9]|\./;
+		  if( !regex.test(key) ) {
+		    theEvent.returnValue = false;
+		    if(theEvent.preventDefault) theEvent.preventDefault();
+		  }
+		}
+    </script>
+</body>
+</html>
