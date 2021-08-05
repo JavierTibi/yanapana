@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "humanosAngular:build:production"
+              "browserTarget": "crowdfunding-yanapana:build:production"
             },
             "development": {
-              "browserTarget": "humanosAngular:build:development"
+              "browserTarget": "crowdfunding-yanapana:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "humanosAngular"
+  "defaultProject": "crowdfunding-yanapana"
 }

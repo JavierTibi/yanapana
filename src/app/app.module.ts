@@ -12,6 +12,7 @@ import { ProjectLoversComponent } from './components/project-lovers/project-love
 import { HowItWorksComponent } from './components/how-it-works/how-it-works.component';
 import { LastCampaignComponent } from './components/last-campaign/last-campaign.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CampaignDatailComponent } from './components/campaign-datail/campaign-datail.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ProjectLoversComponent,
     HowItWorksComponent,
     LastCampaignComponent,
-    FooterComponent
+    FooterComponent,
+    CampaignDatailComponent
   ],
   imports: [
     BrowserModule,
