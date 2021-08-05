@@ -1443,13 +1443,13 @@ ul.menu-category li.active:after{
   background-repeat: no-repeat;
 }
 .page-title.background-page{
-  background-image: url('images/placeholder/1920x220.png');
+  background-image: url('images/placeholder/vaquita_header.png');
 }
 .page-title.background-blog{
   background-image: url('images/placeholder/1920x220.png');
 }
 .page-title.background-campaign{
-  background-image: url('images/placeholder/1920x220.png');
+  background-image: url('images/placeholder/vaquita_header.png');
 }
 .page-title.background-cart{
   background-image: url('images/placeholder/1920x220.png');
