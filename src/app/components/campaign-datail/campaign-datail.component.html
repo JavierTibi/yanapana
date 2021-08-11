@@ -25,16 +25,16 @@
                     <div class="campaign-description"><p> {{campaign.brief}}.</p></div>
                     <div class="campaign-author clearfix">
                         <div class="author-profile">
-                            <a class="author-icon" href="#"><img src="../../../assets/images/placeholder/35x35.png" alt=""></a> <a class="author-name" href="#">Vaquita App</a>
+                            <a class="author-icon" href="#"><img src="../../../assets/images/placeholder/35x35.png" alt=""></a> <a class="author-name" href="#">{{campaign.user}}</a>
                         </div>
                         <div class="author-address"><span class="ion-location"></span>Buenos Aires, Argentina</div>
                     </div>
                     <div class="process">
                         <div class="raised"><span></span></div>
                         <div class="process-info">
-                            <div class="process-funded"><span>$100.000</span>objetivo</div>
-                            <div class="process-pledged"><span>$100</span>recolectado</div>
-                            <div class="process-time"><span>1</span>colaboradores</div>
+                            <div class="process-funded"><span>{{campaign.monto}}</span>objetivo</div>
+<!--                            <div class="process-pledged"><span>$100</span>recolectado</div>
+                            <div class="process-time"><span>1</span>colaboradores</div>-->
 <!--
                             <div class="process-time"><span>23</span>days ago</div>
 -->
@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="button">
-                        <form id="priceForm" class="campaign-price quantity" action="https://mpago.la/2vM2VVo">
+                        <form id="priceForm" class="campaign-price quantity" action="{{campaign.btn_mp}}">
                             <button class="btn-primary" type="submit">Pagar</button>
                         </form>
                         <!--<form action="#" id="priceForm" class="campaign-price quantity">
@@ -54,7 +54,7 @@
                     <div class="share">
                         <p>Ver más</p>
                         <ul>
-                            <li class="share-instagram"><a href="https://www.instagram.com/vaquita.app"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li class="share-instagram"><a href="{{campaign.ig}}"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             <!--<li class="share-twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                             <li class="share-google-plus"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                             <li class="share-linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
