@@ -10,7 +10,8 @@ export const CAMPAIGNS: Campaign[] = [
         btn_mp:'https://mpago.la/2GsP1B7',
         user: 'Catalina Scarone',
         monto: '$8.000',
-        ig: 'https://instagram.com/pupis_en_adopcion'
+        ig: 'https://instagram.com/pupis_en_adopcion',
+        location: 'San Isidro, Buenos Aires'
     },
     { id: 2,
         name: 'Olla Popular - Ritmo Xeneize',
@@ -21,7 +22,8 @@ export const CAMPAIGNS: Campaign[] = [
         btn_mp:'',
         user: 'Cristina Mabel Soto',
         monto: '$500.000',
-        ig: '@daleeeee_boooocaaaa'
+        ig: '@daleeeee_boooocaaaa',
+        location: 'Ciudad Autonoma de Buenos Aires'
     }, {
         id: 3,
         name: 'Vaquita',
@@ -32,7 +34,8 @@ export const CAMPAIGNS: Campaign[] = [
         btn_mp:'https://mpago.la/2vM2VVo',
         user: 'Vaquita App',
         monto: '$100.000',
-        ig: 'https://www.instagram.com/vaquita.app'
+        ig: 'https://www.instagram.com/vaquita.app',
+        location: 'Ciudad Autonoma de Buenos Aires'
     }, {
         id: 4,
         name: 'Lucho Paz',
@@ -43,6 +46,20 @@ export const CAMPAIGNS: Campaign[] = [
         btn_mp:'https://mpago.li/1VQQdTi',
         user: 'Luis Alfredo Paz',
         monto: '$1.800.000',
-        ig: '#'
+        ig: '#',
+        location: 'Ciudad Autonoma de Buenos Aires'
+    },
+    {
+        id: 5,
+        name: 'Ayuda económica para gatito 🐈‍⬛ ',
+        brief: 'Necesito ayuda económica para este pequeño gatito',
+        story: 'Fue encontrado con un tumor por falta de castracion, además de eso tiene una patita quebrada, necesitamos costear los gastos ya que estoy sin trabajo, necesita medicación, estudios, etc.',
+        category: 'Otro',
+        img: '../../../assets/images/placeholder/gatito.png',
+        btn_mp:'https://mpago.la/1UN8G5R',
+        user: 'Dana Moros',
+        monto: '$15.000',
+        ig: '#',
+        location: 'Córdoba'
     }
 ];

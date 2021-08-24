@@ -9,4 +9,5 @@ export interface Campaign {
     user: string;
     monto: string;
     ig: string;
+    location: string;
 }
