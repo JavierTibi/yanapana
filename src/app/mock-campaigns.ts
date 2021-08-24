@@ -33,5 +33,16 @@ export const CAMPAIGNS: Campaign[] = [
         user: 'Vaquita App',
         monto: '$100.000',
         ig: 'https://www.instagram.com/vaquita.app'
+    }, {
+        id: 4,
+        name: 'Lucho Paz',
+        brief: 'Me llamo Luis y necesito ayuda para realizarme una cirugía 🙏',
+        story: 'Tengo que realizarme una cirugía maxilofacial por hiperplasia condilar, la patologia me afecta el maxilar y el nervio causando mareos y migrañas. No tengo cobertura y cuesta $1.800.000 les pido ayuda',
+        category: 'Salud',
+        img: '../../../assets/images/placeholder/luispaz.png',
+        btn_mp:'https://mpago.li/1VQQdTi',
+        user: 'Luis Alfredo Paz',
+        monto: '$1.800.000',
+        ig: '#'
     }
 ];
