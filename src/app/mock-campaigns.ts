@@ -71,7 +71,7 @@ export const CAMPAIGNS: Campaign[] = [
         img: '../../../assets/images/placeholder/todosxmelo.jpg',
         btn_mp:'https://mpago.la/1ANXPcX',
         user: 'Luana Micaela  González',
-        monto: '$15.000',
+        monto: '$10.000.000',
         ig: 'https://www.instagram.com/todos_por_melo ',
         location: 'Villa Paranacito, Entre Rios'
     }
