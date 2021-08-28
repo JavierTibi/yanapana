@@ -61,5 +61,18 @@ export const CAMPAIGNS: Campaign[] = [
         monto: '$15.000',
         ig: '#',
         location: 'Córdoba'
+    },
+    {
+        id: 6,
+        name: '#TodosPorMelo ',
+        brief: 'Hola a todos, necesitamos de su ayuda para llegar a conseguir el dinero necesario  para que Melo y su familia puedan tener *UNA CASA DIGNA Y EN CONDICIONES PARA SUS NECESIDADES Y SU BIENESTAR* sabemos que es mucho, pero con un graniti de arena que  pongamos cada uno lo podemos lograr, desde ya muchas gracias ♥️',
+        story: 'Melody tiene 2 años. Tiene un síndrome llamado Dandy Walker,  polidactilia, orofacio digital 10 y depende las 24 horas de ARM (ASISTENCIA, RESPIRATORIA MECÁNICA). Estuvo 7 meses internada desde que nació en el hospital materno infantil San Roque de Paraná, 1 mes en el hospital de origen de la ciudad de Gualeguaychú, Entre Ríos. Hasta lograr conseguir todos los aparatos necesarios para la internación domiciliaria y una casa en condiciones (cerca del hospital, las calles asfaltadas, sin humedad y una habitación acondicionada para ella). Se lograron conseguir los aparatos, pero la casa la alquilan y en la situación en la que está su familia se les complica cada vez más seguir alquilando. A su vez, ya sufrieron robos dónde alquilan y no obtiene respuesta de parte del estado. Su lucha es constante  y necesitan lo más importante para Melo, *UNA CASA CON TODAS LAS MEDIDAS QUE MELODY NECESITA PARA SU MEJORÍA*',
+        category: 'Salud',
+        img: '../../../assets/images/placeholder/todosxmelo.jpg',
+        btn_mp:'https://mpago.la/1ANXPcX',
+        user: 'Luana Micaela  González',
+        monto: '$15.000',
+        ig: '#',
+        location: 'Villa Paranacito, Entre Rios'
     }
 ];
