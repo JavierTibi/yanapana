@@ -42,8 +42,20 @@
                     </div>
 
                     <div class="button">
-                        <form id="priceForm" class="campaign-price quantity" action="{{campaign.btn_mp}}">
-                            <button class="btn-primary" type="submit">Colaborar</button>
+                        <form id="priceForm50" class="campaign-price quantity" action="{{campaign.btn_mp_50}}" *ngIf="campaign.btn_mp_50">
+                            <button class="btn-primary" type="submit">Colaborar $50</button>
+                        </form>
+
+                        <form id="priceForm" class="campaign-price quantity" action="{{campaign.btn_mp}}" >
+                            <button class="btn-primary" type="submit">Colaborar $100</button>
+                        </form>
+
+                        <form id="priceForm200" class="campaign-price quantity" action="{{campaign.btn_mp_200}}" *ngIf="campaign.btn_mp_200">
+                            <button class="btn-primary" type="submit">Colaborar $200</button>
+                        </form>
+
+                        <form id="priceForm500" class="campaign-price quantity" action="{{campaign.btn_mp_500}}" *ngIf="campaign.btn_mp_500">
+                            <button class="btn-primary" type="submit">Colaborar $500</button>
                         </form>
                         <!--<form action="#" id="priceForm" class="campaign-price quantity">
                             <input type="number" value="1" min="0" name="s" placeholder="" />
