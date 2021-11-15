@@ -92,5 +92,21 @@ export const CAMPAIGNS: Campaign[] = [
         monto: '$10.000.000',
         ig: 'https://www.instagram.com/todos_por_melo ',
         location: 'Villa Paranacito, Entre Rios'
+    },
+    {
+        id: 7,
+        name: 'Todos Por Madeleine',
+        brief: 'Madeleine tiene un año y medio de vida y le diagnosticaron AME1. Necesita del fármaco más caro del mundo para salvar su vida.️',
+        story: 'Madeleine tiene un año y medio y a los 45 días de vida le diagnosticaron AME1. Esta enfermedad, poco frecuente, necesita un fármaco que necesita llamado Zolgensma, producido por el laboratorio sueco Novartis y su precio asciende a los US$ 2,1 millones. Debe aplicarse antes de los dos años de vida y los 13 kilos de peso para salvar su vida.',
+        category: 'Salud',
+        img: '../../../assets/images/placeholder/madeleine.png',
+        btn_mp:'https://mpago.la/1u6YK5S',
+        btn_mp_50: '',
+        btn_mp_200: 'https://www.mercadopago.com.ar/checkout/v1/payment/redirect/?source=link&preference-id=561794793-beb19264-7269-48ef-a842-5f1c92505255',
+        btn_mp_500: '',
+        user: 'Yanet Giordano',
+        monto: 'USD $2.125.000',
+        ig: 'https://www.instagram.com/todospormadeleine',
+        location: 'Buenos Aires'
     }
 ];
